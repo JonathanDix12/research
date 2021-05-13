@@ -228,7 +228,7 @@ p = JSON.parse("[" + dimgarray + "]");
 arg.Inputs.input1.Values.push(p);
 
 jQuery.ajax({
-url: "<https://rseminp1.azure-api.net/score>",
+url: "<https://rseminp1.azure-api.net>",
 beforeSend: function (xhrObj) {
 xhrObj.setRequestHeader("Content-Type",
 "application/json;charset=utf-8");
